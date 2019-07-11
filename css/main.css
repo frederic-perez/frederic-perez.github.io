@@ -1,0 +1,15 @@
+body {
+  font-family:Verdana, sans-serif;
+  font-size: larger;
+  margin: 0; 
+  padding: 0;
+}
+p.center {
+  text-align: center;
+  font-size: larger;
+  color: red;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
