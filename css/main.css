@@ -6,12 +6,15 @@ body {
   margin: 0; 
   padding: 0;
 }
+h1 {
+  text-align: center;
+}
 p.center {
   text-align: center;
   font-size: larger;
   color: black;
-  padding-top: 40px;
+  padding-top: 0px;
   padding-right: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-left: 30px;
 }
