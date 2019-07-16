@@ -1,3 +1,4 @@
+/*
 body {
   background-color: white;
   color: black;
@@ -18,3 +19,237 @@ p.center {
   padding-bottom: 20px;
   padding-left: 30px;
 }
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	outline: none;
+	text-decoration: none;
+}
+
+a, a:active { color: #808080 }
+a:hover, a:focus { color: #ffd100; /*#2df6ff;*/ }
+
+h1, h2, h3, h4 { font-family: Trebuchet MS; }
+
+html, body { height: 100%; }
+
+html { background: #606060 url('../img/bgx.gif') repeat-x scroll top left; }
+
+body {
+	background: transparent url('../img/bgbody.jpg') no-repeat scroll top center;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+#fredericperez {
+	margin: 0 auto;
+	/*padding-top: 20px;*/
+	position: relative;
+	width: 440px;
+}
+
+/*--- HEADER ---*/
+
+#header {
+	padding: 50px 40px 0;
+	position: relative;
+	height: 120px;
+	background: transparent url('../img/header.png') no-repeat scroll bottom center;
+}
+
+#header h1 {
+	width: 242px; /*185px;*/
+	height: 45px;
+	background: transparent url('../img/Frederic-Perez-name.png') no-repeat scroll top center;
+	/*font-size: 32px;*/
+}
+#header h1 span {
+	display: none;
+}
+
+#header h2 {
+	padding: 0 2px;
+	font-size: 14px; /*12px;*/
+	color: #c8c8c8;
+}
+
+#header #avatar {
+	float: right;
+	margin: 0px; /* 5px; */
+}
+
+/*--- HEADER ---*/
+
+
+/*--- NAV ---*/
+
+#nav {
+	padding: 0 25px;
+	height: 40px;
+	background: transparent url('../img/nav.png') repeat-y scroll top center;
+}
+#nav li {
+	float: left;
+	margin: 0 5px;
+}
+#nav li a {
+	display: block;
+	padding: 0 15px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 40px;
+	color: #FFFFFF;
+}
+
+#nav li:hover {
+	background: transparent url('../img/naviteml.png') no-repeat scroll 0px -0px;
+}
+#nav li:hover a {
+	background: transparent url('../img/navitemr.png') no-repeat scroll right 0px;
+}
+
+#nav li.active {
+	background: transparent url('../img/naviteml.png') no-repeat scroll 0px -40px;
+}
+#nav li.active a {
+	background: transparent url('../img/navitemr.png') no-repeat scroll right -40px;
+}
+
+/*--- NAV ---*/
+
+
+/*--- CONTENT ---*/
+
+#content {
+	padding: 10px 30px;
+	background: transparent url('../img/content.png') repeat-y scroll top center;
+	overflow: hidden;
+}
+
+#content h3 {
+	float: left;
+	clear: both;
+	padding: 5px 0;
+	font-size: 16px;
+}
+
+#content div {
+	position: relative;
+	float: left;
+	clear: both;
+	width: 380px;
+}
+#content div .top {
+	float: left;
+	clear: both;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#content div .bottom {
+	float: left;
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#content div p {
+	margin: 0;
+	padding: 15px;
+	border-top: 1px solid #242424;
+	border-bottom: 1px solid #000000;
+	background-color: #101010;
+	line-height: 22px;
+	font-size: 12px;
+}
+
+#content ul {
+	float: left;
+	background-color: #101010;
+	width: 380px;
+}
+#content ul li {
+	float: left;
+	clear: both;
+}
+
+#content ul.extlist li {
+	float: left;
+	clear: both;
+	border-top: 1px solid #242424;
+	border-bottom: 1px solid #000000;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+#content ul.extlist li a {
+	float: left;
+	clear: both;
+	padding: 10px;
+	width: 360px;
+}
+#content ul.extlist li:hover {
+	border-top: 1px solid #303030;
+	border-bottom: 1px solid #0c0c0c;
+	background: #181818 url('../img/lihover.gif') repeat-x scroll bottom left;
+}
+#content ul.extlist li img {
+	float: left;
+	margin-right: 15px;
+}
+#content ul.extlist li strong {
+	display: block;
+	margin-top: 5px;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+#content #networks ul {
+	margin: 1px 0;
+}
+
+/*--- CONTENT ---*/
+
+
+/*--- FOOTER ---*/
+
+#footer {
+	padding: 0 40px 20px;
+	height: 30px;
+	background: transparent url('../img/footer.png') no-repeat scroll bottom center;
+}
+
+#footer p {
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px; /*10px;*/
+	color: #808080;
+}
+
+/*--- FOOTER ---*/
+
+
+/*--- CREDITS ---*/
+
+#credits {
+	padding: 0px; /*20px;*/
+	text-align: center;
+	color: #c0c0c0;
+	font-size: 11px; /*10px;*/
+}
+#credits a {
+	color: #FFFFFF;
+}
+
+#credits a:hover {
+	text-decoration: underline;
+	/*color: #ffd100;*/
+}
+
+/*--- CREDITS ---*/
