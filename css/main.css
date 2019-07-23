@@ -56,8 +56,8 @@ body {
 #header h1 {
   width: 242px; /*185px;*/
   height: 45px;
-  background: transparent url('../img/Frederic-Perez-name.png') no-repeat scroll top center;
-  /*font-size: 32px;*/
+  /*background: transparent url('../img/Frederic-Perez-name.png') no-repeat scroll top center;*/
+  font-size: 32px;
 }
 #header h1 span {
   display: none;
