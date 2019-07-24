@@ -20,7 +20,7 @@ html { background: #606060 url('../img/bgx.gif') repeat-x scroll top left; }
 body {
   background: transparent url('../img/bgbody.jpg') no-repeat scroll top center;
   font-family: Verdana, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #FFFFFF;
 }
 
@@ -44,7 +44,7 @@ body {
   width: 242px; /*185px;*/
   height: 45px;
   /*background: transparent url('../img/Frederic-Perez-name.png') no-repeat scroll top center;*/
-  font-size: 32px;
+  font-size: 34px;
 }
 #header h1 span {
   display: none;
@@ -52,7 +52,7 @@ body {
 
 #header h2 {
   padding: 0 2px;
-  font-size: 14px; /*12px;*/
+  font-size: 16px;
   color: #c8c8c8;
 }
 
@@ -78,7 +78,7 @@ body {
 #nav li a {
   display: block;
   padding: 0 15px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 40px;
   color: #FFFFFF;
@@ -113,7 +113,7 @@ body {
   float: left;
   clear: both;
   padding: 5px 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #content div {
@@ -206,7 +206,7 @@ body {
 #footer p {
   line-height: 30px;
   text-align: center;
-  font-size: 12px; /*10px;*/
+  font-size: 14px;
   color: #808080;
 }
 
@@ -219,7 +219,7 @@ body {
   padding: 0px; /*20px;*/
   text-align: center;
   color: #c0c0c0;
-  font-size: 11px; /*10px;*/
+  font-size: 12px;
 }
 #credits a {
   color: #FFFFFF;
