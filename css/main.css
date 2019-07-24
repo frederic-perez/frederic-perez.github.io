@@ -11,7 +11,7 @@
 a, a:active { color: #808080 }
 a:hover, a:focus { color: #ffd100; /*#2df6ff;*/ }
 
-h1, h2, h3, h4 { font-family: Trebuchet MS; }
+h1, h2, h3, h4 { font-family: "Trebuchet MS"; }
 
 html, body { height: 100%; }
 
@@ -183,7 +183,7 @@ body {
 #content ul.extlist li strong {
   display: block;
   margin-top: 5px;
-  font-family: Trebuchet MS;
+  font-family: "Trebuchet MS";
   font-size: 18px;
   color: #FFFFFF;
 }
