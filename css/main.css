@@ -43,7 +43,6 @@ body {
 #header h1 {
   width: 242px; /*185px;*/
   height: 45px;
-  /*background: transparent url('../img/Frederic-Perez-name.png') no-repeat scroll top center;*/
   font-size: 34px;
 }
 #header h1 span {
@@ -78,7 +77,7 @@ body {
 #nav li a {
   display: block;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 40px;
   color: #FFFFFF;
@@ -227,7 +226,6 @@ body {
 
 #credits a:hover {
   text-decoration: underline;
-  /*color: #ffd100;*/
 }
 
 /*--- CREDITS ---*/
