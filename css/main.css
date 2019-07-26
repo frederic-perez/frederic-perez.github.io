@@ -10,7 +10,7 @@
 a, a:active { color: #808080 }
 a:hover, a:focus { color: #ffd100; /*#2df6ff;*/ }
 
-h1, h2, h3, h4 { font-family: "Trebuchet MS"; }
+h1, h2, h3, h4 { font-family: "Trebuchet MS", Helvetica; }
 
 html, body { height: 100%; }
 
@@ -18,7 +18,7 @@ html { background: #606060 url('../img/bgx.gif') repeat-x scroll top left; }
 
 body {
   background: transparent url('../img/bgbody.jpg') no-repeat scroll top center;
-  font-family: Verdana, Arial, sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #FFFFFF;
 }
@@ -184,7 +184,7 @@ body {
 #content ul.extlist li strong {
   display: block;
   margin-top: 5px;
-  font-family: "Trebuchet MS";
+  font-family: "Trebuchet MS", Helvetica;
   font-size: 18px;
   color: #FFFFFF;
 }
