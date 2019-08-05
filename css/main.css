@@ -113,13 +113,6 @@ body {
   overflow: hidden;
 }
 
-#content h3 {
-  float: left;
-  clear: both;
-  padding: 5px 0;
-  font-size: 18px;
-}
-
 #content div {
   position: relative;
   float: left;
