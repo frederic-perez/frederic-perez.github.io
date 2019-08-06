@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	// All our jQuery goodnes is here
+	// All our jQuery goodness is here
 	// See http://www.learningjquery.com/2006/09/introducing-document-ready
 
 	var debug = false; //true;
@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$('#nav li').removeClass("active");
 		$(this).parent().addClass("active");
 
-		var current = $(this).attr("href");
+		const current = $(this).attr("href");
 		if (debug && false) {
 			if (current == "index-develop.html#networks")
 				alert("current is index-develop.html#networks");
@@ -24,19 +24,21 @@ $(document).ready(function(){
 			else if (current == "index-develop.html#contact")
 				alert("current is index-develop.html#contact");
 			else
-				alert("ERROR: current was not catched!!!");
+				alert("ERROR: current was not caught");
 		}
 		
-		var textElementNetwo = document.getElementById("networks");
-		var textElementAbout = document.getElementById("about");
-		var textElementConta = document.getElementById("contact");
-		
-		var textElementToAnimate;
+		const textElementNetwo = document.getElementById("networks");
+		const textElementAbout = document.getElementById("about");
+		const textElementConta = document.getElementById("contact");
+    
+    //alert("Heights: Netwo:" + $(textElementNetwo).height() + " About:" + $(textElementAbout).height() + " Conta:" + $(textElementConta).height());
+
+		let textElementToAnimate;
 		if (current == "index-develop.html#networks") {
 			textElementToAnimate = textElementNetwo;
 			$(textElementAbout).fadeOut("fast");
 			$(textElementConta).fadeOut("fast");
-			document.title = "Lorem Ipsum | Networks";
+      document.title = "Lorem Ipsum | Networks";
 		} else if (current == "index-develop.html#about") {
       textElementToAnimate = textElementAbout;
       //alert("We are about to fade out `Network`");
@@ -50,10 +52,10 @@ $(document).ready(function(){
 			$(textElementNetwo).fadeOut("fast");
 			$(textElementAbout).fadeOut("fast");
 			document.title = "Lorem Ipsum | Contact";
-		}
+    }
 
 		$("#content").animate({"height":$(textElementToAnimate).height()},function(){
-      //alert(">>> We are about to fade in `current` height is " + $(textElementToAnimate).height());
+      //alert(">>> We are about to fade in `current` | height is " + $(textElementToAnimate).height() + " px");
       $(current).fadeIn("fast");
     });
     
