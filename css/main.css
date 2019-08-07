@@ -19,7 +19,7 @@ html { background: #606060 url('../img/bgx.gif') repeat-x scroll top left; }
 body {
   background: transparent url('../img/bgbody.jpg') no-repeat scroll top center;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 50px;
   color: #FFFFFF;
 }
 
@@ -107,7 +107,7 @@ body {
 /*--- CONTENT ---*/
 
 #content {
-  padding: 10px 30px;
+  padding: 0; /* 0 to avoid problems when first rendering About and Contact */
   background: transparent url('../img/content.png') repeat-y scroll top center;
   background-size: 100% 1px;
   overflow: hidden;
@@ -145,8 +145,8 @@ body {
   border-top: 1px solid #242424;
   border-bottom: 1px solid #000000;
   background-color: #101010;
-  line-height: 22px;
-  font-size: 12px;
+  line-height: 1.4em;
+  font-size: 14px;
 }
 
 #content ul {
