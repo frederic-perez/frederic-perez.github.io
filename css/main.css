@@ -19,7 +19,7 @@ html { background: #606060 url('../img/bgx.gif') repeat-x scroll top left; }
 body {
   background: transparent url('../img/bgbody.jpg') no-repeat scroll top center;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 14px;
   color: #FFFFFF;
 }
 
@@ -127,8 +127,8 @@ body {
   border-top: 1px solid #242424;
   border-bottom: 1px solid #000000;
   background-color: #101010;
-  line-height: 1.4em;
   font-size: 14px;
+  line-height: 1.4em;
 }
 
 #content ul {
