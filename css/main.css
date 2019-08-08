@@ -120,24 +120,6 @@ body {
   width: 90%;
   left: 5%;
 }
-#content div .top {
-  float: left;
-  clear: both;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 6px;
-  width: 100%;
-}
-#content div .bottom {
-  float: left;
-  clear: both;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 6px;
-  width: 100%;
-}
 
 #content div p {
   margin: 0;
