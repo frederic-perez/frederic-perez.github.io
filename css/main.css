@@ -172,13 +172,6 @@ body {
   font-size: 18px;
   color: #FFFFFF;
 }
-#content ul.extlist li strongdesc {
-  display: block;
-  margin-top: 5px;
-  font-family: "Trebuchet MS", Helvetica;
-  font-size: 18px;
-  color: #c8c8c8;
-}
 
 #content #networks ul {
   margin: 1px 0;
