@@ -85,7 +85,9 @@ body {
   line-height: 40px;
   color: #FFFFFF;
 }
-
+#nav li a.desc {
+  color: #c8c8c8;
+}
 #nav li:hover {
   background: transparent url('../img/naviteml.png') no-repeat scroll 0px -0px;
 }
