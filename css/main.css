@@ -85,10 +85,6 @@ body {
   line-height: 40px;
   color: #FFFFFF;
 }
-#nav li a img {
-  width: 48px;
-  height: 48px;
-}
 #nav li:hover {
   background: transparent url('../img/naviteml.png') no-repeat scroll 0px -0px;
 }
@@ -158,6 +154,10 @@ body {
   clear: both;
   padding: 10px;
   width: 80%;
+}
+#content ul.extlist li a img {
+  width: 48px;
+  height: 48px;
 }
 #content ul.extlist li:hover {
   border-top: 1px solid #303030;
