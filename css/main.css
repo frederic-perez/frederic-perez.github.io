@@ -24,7 +24,6 @@ body {
 
 #fredericperez {
   margin: 0 auto;
-  /*padding-top: 20px;*/
   position: relative;
   width: 100%;
 }
@@ -40,7 +39,7 @@ body {
 }
 
 #header h1 {
-  width: 442px; /*185px;*/
+  width: 442px;
   height: 45px;
   font-size: 34px;
 }
@@ -59,7 +58,7 @@ body {
 
 #header #avatar {
   float: right;
-  margin: 0px; /* 5px; */
+  margin: 0px;
 }
 
 /*--- HEADER ---*/
