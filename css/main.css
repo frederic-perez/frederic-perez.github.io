@@ -156,6 +156,8 @@ body {
   width: 80%;
 }
 #content ul.extlist li a img {
+  float: left;
+  margin-right: 15px;
   width: 48px;
   height: 48px;
 }
@@ -163,10 +165,6 @@ body {
   border-top: 1px solid #303030;
   border-bottom: 1px solid #0c0c0c;
   background: #181818 url('../img/lihover.gif') repeat-x scroll bottom left;
-}
-#content ul.extlist li img {
-  float: left;
-  margin-right: 15px;
 }
 #content ul.extlist li strong {
   display: block;
