@@ -7,9 +7,8 @@
   text-decoration: none;
 }
 
-a, a:active { color: #808080 }
-a:hover, a:focus { color: DeepSkyBlue; /*#ffd100; #2df6ff;*/ }
-a:visited { color: PurpleFlower; }
+a { color: #808080 }
+a:hover { color: DeepSkyBlue; }
 
 h1, h2, h3, h4 { font-family: "Trebuchet MS", Helvetica; }
 
