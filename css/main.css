@@ -120,7 +120,10 @@ body {
 
 #content div p, #content div address {
   margin: 0;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-top: 1px solid #242424;
   border-bottom: 1px solid #000000;
   background-color: #101010;
