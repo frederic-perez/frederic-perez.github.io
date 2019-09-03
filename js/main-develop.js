@@ -17,52 +17,25 @@ $(document).ready(function(){
 
     const current = $(this).attr("href");
     if (debug && false) {
-      if (current == "index-develop.html#networks")
-        alert("current is index-develop.html#networks");
-      else if (current == "index-develop.html#about")
-        alert("current is index-develop.html#about");
-      else if (current == "index-develop.html#contact")
-        alert("current is index-develop.html#contact");
+      if (current == "index-develop-networks.html")
+        alert("current is index-develop-networks.html");
+      else if (current == "index-develop-about.html")
+        alert("current is index-develop-about.html");
+      else if (current == "index-develop-contact.html")
+        alert("current is index-develop-contact.html");
       else
-        alert("ERROR: current was not caught");
+        alert("ERROR: current was not caught: current=`" + current + "`");
     }
 
-    const textElementNetwo = document.getElementById("networks");
-    const textElementAbout = document.getElementById("about");
-    const textElementConta = document.getElementById("contact");
-
-    //alert("Heights: Netwo:" + $(textElementNetwo).height() + " About:" + $(textElementAbout).height() + " Conta:" + $(textElementConta).height());
-
-    let textElementToAnimate;
     if (current == "index-develop.html#networks") {
-      textElementToAnimate = textElementNetwo;
-      $(textElementAbout).fadeOut("fast");
-      $(textElementConta).fadeOut("fast");
       document.title = "Lorem Ipsum | Networks";
     } else if (current == "index-develop.html#about") {
-      textElementToAnimate = textElementAbout;
-      //alert("We are about to fade out `Network`");
-      $(textElementNetwo).fadeOut("fast");
-      //alert("We are about to fade out `Conta`");
-      $(textElementConta).fadeOut("fast");
-      //alert("We are about to change the document title");
       document.title = "Lorem Ipsum | About";
     } else if (current == "index-develop.html#contact") {
-      textElementToAnimate = textElementConta;
-      $(textElementNetwo).fadeOut("fast");
-      $(textElementAbout).fadeOut("fast");
       document.title = "Lorem Ipsum | Contact";
     }
 
-    $("#content").animate({"height":$(textElementToAnimate).height()},function(){
-      //alert(">>> We are about to fade in `current` | height is " + $(textElementToAnimate).height() + " px");
-      $(current).fadeIn("fast");
-    });
-
-    //alert("We are about to fade in `textElementToAnimate`");
-    $(textElementToAnimate).fadeIn();
-
-    return false; // Seems to quit this .ready function
+    //return false; // Seems to quit this .ready function
   });
 
   if (debug)
