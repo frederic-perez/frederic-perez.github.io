@@ -82,7 +82,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   line-height: 40px;
-  color: #FFFFFF;
+  color: white;
 }
 #nav li:hover {
   background: transparent url('../img/naviteml.png') no-repeat scroll 0px -0px;
