@@ -5,10 +5,6 @@ $(document).ready(function(){
 
   const debug = false; //true;
 
-  // $("#content h3").hide();
-  // $("#content div").hide();
-
-  // $("#content div:first").show();
   if (document.title == "Frederic Perez | Website") {
     $("#nav li:first").addClass("active");
   } else if (document.title == "Frederic Perez | Networks") {
