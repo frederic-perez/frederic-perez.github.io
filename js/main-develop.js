@@ -5,11 +5,19 @@ $(document).ready(function(){
 
   const debug = false; //true;
 
-  $("#content h3").hide();
-  $("#content div").hide();
+  // $("#content h3").hide();
+  // $("#content div").hide();
 
-  $("#content div:first").show();
-  $("#nav li:first").addClass("active");
+  // $("#content div:first").show();
+  if (document.title == "Frederic Perez | Website") {
+    $("#nav li:first").addClass("active");
+  } else if (document.title == "Frederic Perez | Networks") {
+    $("#nav li:first").addClass("active");
+  } else if (document.title == "Frederic Perez | About") {
+    $("#nav li:nth-child(2)").addClass("active");
+  } else if (document.title == "Frederic Perez | Contact") {
+    $("#nav li:last").addClass("active");
+  }
 
   $('#nav li a').click(function(){
     $('#nav li').removeClass("active");
