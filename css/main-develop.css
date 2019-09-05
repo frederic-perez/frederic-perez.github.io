@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+}
+
+a { color: #808080 }
+a:hover { color: deepskyblue; }
+
+h1, h2, h3, h4 { font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; }
+
+html, body { height: 100%; }
+
+html { background: #606060 url('../img/bgx.gif') repeat-x scroll top left; }
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+#fredericperez {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+/*--- HEADER ---*/
+
+#header {
+  padding: 40px 10% 0;
+  position: relative;
+  height: 120px;
+  background: transparent url('../img/header.png') no-repeat scroll bottom center;
+  background-size: 100% 170px;
+}
+
+#header h1 {
+  width: 442px;
+  height: 45px;
+  font-size: 34px;
+}
+#header h1 span {
+  display: none;
+}
+
+#header h2 {
+  padding-top: 0px;
+  padding-right: 20%;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 18px;
+  color: #c8c8c8;
+}
+
+#header #avatar {
+  float: right;
+  margin: 0px;
+}
+
+/*--- HEADER ---*/
+
+
+/*--- NAV ---*/
+
+#nav {
+  padding: 0 10% 0;
+  height: 40px;
+  background: transparent url('../img/nav.png') repeat-y scroll top center;
+  background-size: 100% 40px;
+}
+#nav li {
+  float: left;
+  margin: 0 5px;
+}
+#nav li a {
+  display: block;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  color: white;
+}
+#nav li:hover {
+  background: transparent url('../img/naviteml.png') no-repeat scroll 0px -0px;
+}
+#nav li:hover a {
+  background: transparent url('../img/navitemr.png') no-repeat scroll right 0px;
+}
+
+#nav li.active {
+  background: transparent url('../img/naviteml.png') no-repeat scroll 0px -40px;
+}
+#nav li.active a {
+  background: transparent url('../img/navitemr.png') no-repeat scroll right -40px;
+}
+
+/*--- NAV ---*/
+
+
+/*--- CONTENT ---*/
+
+#content {
+  padding: 0; /* 0 to avoid problems when first rendering About and Contact */
+  background: transparent url('../img/content.png') repeat-y scroll top center;
+  background-size: 100% 1px;
+  overflow: hidden;
+}
+
+#content div {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 90%;
+  left: 5%;
+}
+
+#content div p, #content div address {
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #242424;
+  border-bottom: 1px solid #000000;
+  background-color: #101010;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+#content ul {
+  float: left;
+  background-color: #101010;
+  width: 100%;
+}
+#content ul li {
+  float: left;
+  clear: both;
+}
+
+#content ul.extlist li {
+  float: left;
+  clear: both;
+  border-top: 1px solid #242424;
+  border-bottom: 1px solid #000000;
+  font-size: 14px;
+  color: white;
+  background-color: #101010;
+  width: 100%;
+}
+#content ul.extlist li a {
+  float: left;
+  clear: both;
+  /* background-color: yellow; for testing */
+  width: 100%;
+}
+#content ul.extlist li a img {
+  float: left;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 48px;
+  height: 48px;
+}
+#content ul.extlist li:hover {
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #0c0c0c;
+  background: #181818 url('../img/lihover.gif') repeat-x scroll bottom left;
+}
+#content ul.extlist li strong {
+  display: block;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", Helvetica;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.desc {
+  color: #c8c8c8;
+}
+
+#content ul.extlist li:hover strong {
+  color: deepskyblue;
+}
+
+#content #networks ul {
+  margin: 1px 0;
+}
+
+/*--- CONTENT ---*/
+
+
+/*--- FOOTER ---*/
+
+#footer {
+  padding: 0 40px 20px;
+  height: 30px;
+  background: transparent url('../img/footer.png') no-repeat scroll bottom center;
+  background-size: 100% 50px;
+}
+
+#footer p {
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #808080;
+}
+
+/*--- FOOTER ---*/
+
+
+/*--- CREDITS ---*/
+
+#credits {
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 12px;
+}
+#credits a {
+  color: #FFFFFF;
+}
+
+#credits a:hover {
+  text-decoration: underline;
+}
+
+/*--- CREDITS ---*/
