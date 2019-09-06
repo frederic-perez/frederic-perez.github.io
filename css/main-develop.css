@@ -176,7 +176,7 @@ body {
 #content ul.extlist li strong {
   display: block;
   padding-top: 10px;
-  font-family: "Trebuchet MS", Helvetica;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #FFFFFF;
 }
