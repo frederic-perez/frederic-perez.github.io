@@ -14,7 +14,7 @@ h1, h2, h3, h4 { font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-se
 
 html, body { height: 100%; }
 
-html { background: #606060 url('../img/bgx.gif') repeat-x scroll top left; }
+html { background: red; }
 
 body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
