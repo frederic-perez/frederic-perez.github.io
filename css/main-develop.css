@@ -118,7 +118,7 @@ body {
   left: 5%;
 }
 
-#content div p, #content div address {
+#content div p, #content div address, #about p {
   margin: 0;
   padding-left: 15px;
   padding-right: 15px;
