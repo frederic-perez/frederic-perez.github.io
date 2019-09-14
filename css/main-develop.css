@@ -10,14 +10,14 @@
 a { color: #808080 }
 a:hover { color: deepskyblue; }
 
-h1, h2, h3, h4 { font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4 { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
 
 html, body { height: 100%; }
 
 html { background: red; }
 
 body {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: white;
 }
@@ -176,7 +176,7 @@ body {
 #content ul.extlist li strong {
   display: block;
   padding-top: 10px;
-  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #FFFFFF;
 }
