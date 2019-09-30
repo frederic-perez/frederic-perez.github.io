@@ -31,14 +31,6 @@ $(document).ready(function(){
         alert("ERROR: current was not caught: current=`" + current + "`");
     }
 
-    if (current == "index-develop.html#networks") {
-      document.title = "Lorem Ipsum | Networks";
-    } else if (current == "index-develop.html#about") {
-      document.title = "Lorem Ipsum | About";
-    } else if (current == "index-develop.html#contact") {
-      document.title = "Lorem Ipsum | Contact";
-    }
-
     //return false; // Seems to quit this .ready function
   });
 
