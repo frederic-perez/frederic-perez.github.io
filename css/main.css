@@ -10,14 +10,14 @@
 a { color: #808080 }
 a:hover { color: deepskyblue; }
 
-h1, h2, h3, h4 { font-family: "Trebuchet MS", Helvetica; }
+h1, h2, h3, h4 { font-family: "Trebuchet MS", Arial; }
 
 html, body { height: 100%; }
 
-html { background: #606060 url('../img/bgx.gif') repeat-x scroll top left; }
+html { background: #606060; }
 
 body {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: Arial;
   font-size: 14px;
   color: white;
 }
@@ -52,7 +52,7 @@ body {
   padding-right: 20%;
   padding-bottom: 0px;
   padding-left: 0px;
-  font-size: 16px;
+  font-size: 18px;
   color: #c8c8c8;
 }
 
@@ -130,6 +130,7 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.4em;
+  max-height: 999999px; /* prevent font boosting on mobile devices -- See https://stackoverflow.com/questions/11289166 */
 }
 
 #content ul {
@@ -176,7 +177,7 @@ body {
 #content ul.extlist li strong {
   display: block;
   padding-top: 10px;
-  font-family: "Trebuchet MS", Helvetica;
+  font-family: "Trebuchet MS", Arial;
   font-size: 18px;
   color: #FFFFFF;
 }
