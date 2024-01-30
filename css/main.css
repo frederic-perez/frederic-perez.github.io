@@ -64,43 +64,6 @@ body {
 /*--- HEADER ---*/
 
 
-/*--- NAV ---*/
-
-#nav {
-  padding: 0 10% 0;
-  height: 40px;
-  background: transparent url('../img/nav.png') repeat-y scroll top center;
-  background-size: 100% 40px;
-}
-#nav li {
-  float: left;
-  margin: 0 5px;
-}
-#nav li a {
-  display: block;
-  padding: 0 15px;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 40px;
-  color: white;
-}
-#nav li:hover {
-  background: transparent url('../img/naviteml.png') no-repeat scroll 0px -0px;
-}
-#nav li:hover a {
-  background: transparent url('../img/navitemr.png') no-repeat scroll right 0px;
-}
-
-#nav li.active {
-  background: transparent url('../img/naviteml.png') no-repeat scroll 0px -40px;
-}
-#nav li.active a {
-  background: transparent url('../img/navitemr.png') no-repeat scroll right -40px;
-}
-
-/*--- NAV ---*/
-
-
 /*--- CONTENT ---*/
 
 #content {
