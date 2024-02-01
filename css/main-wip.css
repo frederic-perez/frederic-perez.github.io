@@ -14,7 +14,7 @@ h1, h2, h3, h4 { font-family: "Trebuchet MS", Arial; }
 
 html, body { height: 100%; }
 
-html { background: red; }
+html { background: navy; }
 
 body {
   font-family: Arial;
@@ -34,7 +34,7 @@ body {
   padding: 40px 10% 0;
   position: relative;
   height: 120px;
-  background: transparent url('../img/header.png') no-repeat scroll bottom center;
+  /* background: transparent url('../img/header.png') no-repeat scroll bottom center; */
   background-size: 100% 170px;
 }
 
@@ -68,7 +68,7 @@ body {
 
 #content {
   /* padding: 0; ** 0 to avoid problems when first rendering Contact */
-  background: transparent url('../img/content.png') repeat-y scroll top center;
+  /* background: transparent url('../img/content.png') repeat-y scroll top center; */
   background-size: 100% 1px;
   overflow: hidden;
 }
@@ -135,7 +135,7 @@ body {
 #content ul.extlist li:hover {
   border-top: 1px solid #303030;
   border-bottom: 1px solid #0c0c0c;
-  background: #181818 url('../img/lihover.gif') repeat-x scroll bottom left;
+  background: #181818 /* background: #181818 url('../img/lihover.gif') repeat-x scroll bottom left; */
 }
 #content ul.extlist li strong {
   display: block;
@@ -157,25 +157,6 @@ body {
 }
 
 /*--- CONTENT ---*/
-
-
-/*--- FOOTER ---*/
-
-#footer {
-  padding: 0 40px 20px;
-  height: 30px;
-  background: transparent url('../img/footer.png') no-repeat scroll bottom center;
-  background-size: 100% 50px;
-}
-
-#footer p {
-  line-height: 30px;
-  text-align: center;
-  font-size: 14px;
-  color: #808080;
-}
-
-/*--- FOOTER ---*/
 
 
 /*--- CREDITS ---*/
