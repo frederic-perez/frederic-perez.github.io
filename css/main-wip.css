@@ -8,13 +8,13 @@
 }
 
 a { color: #808080 }
-a:hover { color: deepskyblue; }
+a:hover { color: goldenrod;/*deepskyblue;*/ }
 
 h1, h2, h3, h4 { font-family: "Trebuchet MS", Arial; }
 
 html, body { height: 100%; }
 
-html { background: navy; }
+html { background: #002349; /*navy;*/ }
 
 body {
   font-family: Arial;
@@ -31,17 +31,22 @@ body {
 /*--- HEADER ---*/
 
 #header {
-  padding: 40px 10% 0;
+  padding: 20px 4% 0; /*40px 10% 0;*/
   position: relative;
-  height: 120px;
-  /* background: transparent url('../img/header.png') no-repeat scroll bottom center; */
-  background-size: 100% 170px;
+  /*height: 120px;*/
+  /*background: transparent url('../img/header.png') no-repeat scroll bottom center;*/
+  /*background-size: 100% 170px;*/
+  max-width: 850px;
+  margin: auto;
 }
 
 #header h1 {
-  width: 442px;
-  height: 45px;
-  font-size: 34px;
+  /*width: 442px;*/
+  /*height: 45px;*/
+  /*font-size: 34px;*/
+  /*font-size: 10vw;*/
+  font-size: 4rem;
+  max-width: 50vw;
 }
 #header h1 span {
   display: none;
@@ -52,8 +57,11 @@ body {
   padding-right: 20%;
   padding-bottom: 0px;
   padding-left: 0px;
-  font-size: 18px;
-  color: #c8c8c8;
+  /*font-size: 18px;*/
+  font-size: 5vw;
+  font-size: 2rem;
+  max-width: 200vw;
+  color: rgb(164, 164, 164);
 }
 
 #header #avatar {
@@ -67,18 +75,20 @@ body {
 /*--- CONTENT ---*/
 
 #content {
-  /* padding: 0; ** 0 to avoid problems when first rendering Contact */
+  padding-top: 25px; /* padding: 0; ** 0 to avoid problems when first rendering Contact */
   /* background: transparent url('../img/content.png') repeat-y scroll top center; */
-  background-size: 100% 1px;
+  /*background-size: 100% 1px;*/
   overflow: hidden;
 }
 
 #content div {
   position: relative;
-  float: left;
+  /*float: left;*/
   clear: both;
-  width: 90%;
-  left: 5%;
+  /*width: 96%;*/ /*90%;*/
+  /*left: 2%;*/ /*5%;*/
+  max-width: 900px;
+  margin: auto;
 }
 
 #content div p, #content div address {
@@ -89,16 +99,16 @@ body {
   padding-bottom: 10px;
   border-top: 1px solid #242424;
   border-bottom: 1px solid #000000;
-  background-color: #101010;
+  /*background-color: red;*//*#101010;*/
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.4em;
-  max-height: 999999px; /* prevent font boosting on mobile devices -- See https://stackoverflow.com/questions/11289166 */
+  /*font-size: 14px;*/
+  /*line-height: 1.4em;*/
+  /*max-height: 999999px;*/ /* prevent font boosting on mobile devices -- See https://stackoverflow.com/questions/11289166 */
 }
 
 #content ul {
   float: left;
-  background-color: #101010;
+  /*background-color: #101010;*/
   width: 100%;
 }
 #content ul li {
@@ -111,15 +121,17 @@ body {
   clear: both;
   border-top: 1px solid #242424;
   border-bottom: 1px solid #000000;
-  font-size: 14px;
+  /*font-size: 14px;*/
   color: white;
-  background-color: #101010;
+  background-color: #002349; /*#101010;*/
   width: 100%;
 }
 #content ul.extlist li a {
   float: left;
   clear: both;
   /* background-color: yellow; for testing */
+  font-size: 1vw;
+  font-size: 1.5rem;
   width: 100%;
 }
 #content ul.extlist li a img {
@@ -135,21 +147,23 @@ body {
 #content ul.extlist li:hover {
   border-top: 1px solid #303030;
   border-bottom: 1px solid #0c0c0c;
-  background: #181818 /* background: #181818 url('../img/lihover.gif') repeat-x scroll bottom left; */
+  background: #242424; /* a dark gray */ /*#181818*/ /* background: #181818 url('../img/lihover.gif') repeat-x scroll bottom left; */
 }
 #content ul.extlist li strong {
   display: block;
-  padding-top: 10px;
+  padding-top: 2px; /*10px;*/
   font-family: "Trebuchet MS", Arial;
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: 10vw;
+  font-size: 1.75rem;
   color: #FFFFFF;
 }
 .desc {
-  color: #c8c8c8;
+  color: red;/*#c8c8c8;*/
 }
 
 #content ul.extlist li:hover strong {
-  color: deepskyblue;
+  color: gold;
 }
 
 #content #networks ul {
@@ -164,15 +178,15 @@ body {
 #credits {
   padding: 0px 0px 20px 0px;
   text-align: center;
-  color: #c0c0c0;
-  font-size: 12px;
+  /*color: #c0c0c0;*/
+  font-size: 1.25rem; /*12px;*/
 }
 #credits a {
-  color: #FFFFFF;
+  /*color: #FFFFFF;*/
 }
 
 #credits a:hover {
-  text-decoration: underline;
+  text-decoration: none; /*underline;*/
 }
 
 /*--- CREDITS ---*/
