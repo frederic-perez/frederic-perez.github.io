@@ -18,49 +18,18 @@ html { background: #002349; }
 
 body {
   font-family: Arial;
-  font-size: 14px;
+  /*font-size: 14px;*/
   color: white;
-}
-
-#fredericperez {
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
-}
-
-/*--- HEADER ---*/
-
-#header {
-  padding-top: 30px;
-  padding-right: 4%;
-  padding-bottom: 0px;
-  padding-left: 4%;
-  max-width: 750px;
-  margin: auto;
-}
-
-#header h1 {
-  font-size: 3.5rem;/*4rem;*/
-  max-width: 800px;
-}
-#header h1 span {
-  display: none;
-}
-
-#header h2 {
-  padding-top: 0px;
-  padding-right: 0%;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  font-size: 2rem;
-  max-width: 800px;
-  color: silver;
 }
 
 
 /*--- CONTENT ---*/
 
 #content {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+
   padding-top: 25px;
   overflow: hidden;
 }
